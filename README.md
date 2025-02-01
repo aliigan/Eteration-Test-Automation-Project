@@ -1,1 +1,1 @@
-# Etheration-Test-Automation-Project
+# Eteration-Test-Automation-Project
