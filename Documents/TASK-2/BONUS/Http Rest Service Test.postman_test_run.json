@@ -1,0 +1,390 @@
+{
+	"id": "73e37c3d-0a22-46d9-8be0-8ee996af65af",
+	"name": "Http Rest Service Test",
+	"timestamp": "2025-02-02T19:00:42.801Z",
+	"collection_id": "20999102-8a346b4e-f955-4089-b76d-98a03c499716",
+	"folder_id": 0,
+	"environment_id": "20999102-3cc03182-5de3-4d2b-b6db-fa1670fe34fd",
+	"totalPass": 28,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-02T19:00:40.626Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "993e089b-94e8-4f6a-bb98-2399beae2bf5",
+			"name": "getAllPosts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000 ms": true,
+				"Get all posts test passed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get all posts test passed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000 ms": true,
+					"Get all posts test passed": true
+				}
+			]
+		},
+		{
+			"id": "9afcf5e2-2c60-483d-9f58-b191b7f2ece1",
+			"name": "getPostById",
+			"url": "https://jsonplaceholder.typicode.com/posts/3",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response time is less than 1000 ms": true,
+				"Validate the response schema for required fields": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the response schema for required fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response time is less than 1000 ms": true,
+					"Validate the response schema for required fields": true
+				}
+			]
+		},
+		{
+			"id": "b7a1f740-275a-4d76-b6a4-77837c0c76f8",
+			"name": "getCommentsByPostId",
+			"url": "https://jsonplaceholder.typicode.com/posts/1/comments",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000 ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000 ms": true
+				}
+			]
+		},
+		{
+			"id": "390c0dd6-2a19-4500-b833-4ec52268d17c",
+			"name": "getCommentsUsingQueryParam",
+			"url": "https://jsonplaceholder.typicode.com/comments?postId=1",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000 ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000 ms": true
+				}
+			]
+		},
+		{
+			"id": "2fdad197-a845-4ab6-a081-d21582a4aad7",
+			"name": "createPost",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 206,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response has the required fields - userId, id, title, and body": true,
+				"Title and body are non-empty strings": true,
+				"Response time is less than 1000 ms": true,
+				"Variables have the correct data types": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields - userId, id, title, and body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Title and body are non-empty strings": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Variables have the correct data types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response has the required fields - userId, id, title, and body": true,
+					"Title and body are non-empty strings": true,
+					"Response time is less than 1000 ms": true,
+					"Variables have the correct data types": true
+				}
+			]
+		},
+		{
+			"id": "1bba92e0-9428-4da9-aa66-1a70ba3e8e71",
+			"name": "updatePost",
+			"url": "https://jsonplaceholder.typicode.com/posts/3",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has the required fields - userId, id, title, and body": true,
+				"Title and body are non-empty strings": true,
+				"Response time is less than 1000 ms": true,
+				"Variables have the correct data types": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields - userId, id, title, and body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Title and body are non-empty strings": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Variables have the correct data types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has the required fields - userId, id, title, and body": true,
+					"Title and body are non-empty strings": true,
+					"Response time is less than 1000 ms": true,
+					"Variables have the correct data types": true
+				}
+			]
+		},
+		{
+			"id": "d6638a86-b25c-433a-949f-72e8a2cdfd48",
+			"name": "partialUpdatePost",
+			"url": "https://jsonplaceholder.typicode.com/posts/3",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response has the required fields - userId, id, title, and body": true,
+				"Title and body are non-empty strings": true,
+				"Response time is less than 1000 ms": true,
+				"Variables have the correct data types": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has the required fields - userId, id, title, and body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Title and body are non-empty strings": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Variables have the correct data types": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response has the required fields - userId, id, title, and body": true,
+					"Title and body are non-empty strings": true,
+					"Response time is less than 1000 ms": true,
+					"Variables have the correct data types": true
+				}
+			]
+		},
+		{
+			"id": "6c168a4c-59d0-49a0-a1e7-22ad58e2e3ac",
+			"name": "deletePost",
+			"url": "https://jsonplaceholder.typicode.com/posts/3",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 400 ms": true,
+				"Delete post is successful": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400 ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Delete post is successful": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 400 ms": true,
+					"Delete post is successful": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1061,
+	"collection": {
+		"requests": [
+			{
+				"id": "993e089b-94e8-4f6a-bb98-2399beae2bf5",
+				"method": "GET"
+			},
+			{
+				"id": "9afcf5e2-2c60-483d-9f58-b191b7f2ece1",
+				"method": "GET"
+			},
+			{
+				"id": "b7a1f740-275a-4d76-b6a4-77837c0c76f8",
+				"method": "GET"
+			},
+			{
+				"id": "390c0dd6-2a19-4500-b833-4ec52268d17c",
+				"method": "GET"
+			},
+			{
+				"id": "2fdad197-a845-4ab6-a081-d21582a4aad7",
+				"method": "POST"
+			},
+			{
+				"id": "1bba92e0-9428-4da9-aa66-1a70ba3e8e71",
+				"method": "PUT"
+			},
+			{
+				"id": "d6638a86-b25c-433a-949f-72e8a2cdfd48",
+				"method": "PATCH"
+			},
+			{
+				"id": "6c168a4c-59d0-49a0-a1e7-22ad58e2e3ac",
+				"method": "DELETE"
+			}
+		]
+	}
+}

@@ -1,0 +1,8 @@
+<suite name = "Eteration-Test-Automation-Project" >
+    <parameter name = "browser" value = "chrome"/>
+    <test name = "Eteration">
+        <classes>
+            <class name = "testRunners.Runner"/>
+        </classes>
+    </test>
+</suite>
