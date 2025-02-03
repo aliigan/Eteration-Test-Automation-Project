@@ -25,7 +25,9 @@ Dosya dizini: Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.jso
 ## Task 3: HTTP Soap Service Test
 
 #### SoapUI Projesi
-Dosya dizini: Documents/TASK-3/SOAP-Test-soapui-project.xml
+Proje dosyasına [buradan](Documents/TASK-3/SOAP-Test-soapui-project.xml) ulaşabilirsiniz.
+
+
 
 #### Bonus: Add Test suit with Load test in SOAPUI for a single operation without default values.
 AddInteger işlemine ait yük testi SoapUI projesi olarak oluşturulmuştur.  
