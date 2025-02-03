@@ -1,11 +1,12 @@
 # Eteration-Test-Automation-Project
 
-Bu repository sınav sürecimize ilişkin verilen görevlerden oluşmaktadır. Hazırlanan döküman ve projelere ilişkin detayları aşağıda, ilgili göreve ilişkin alt başlıkta bulabilirsiniz.
+Bu repository sınav sürecimize ilişkin verilen görevlerden oluşmaktadır. Task-1, Task-2 ve Task-3'e ilişkin görevler Documents klasörü altında listelenmiştir. Task-4'te verilen test otomasyonu senaryosuna ilişkin geliştirmeler src dizini altındadır. Hazırlanan döküman ve projelere ilişkin detayları aşağıda, ilgili göreve ilişkin alt başlıkta bulabilirsiniz. 
 
 ## Task 1: Testcase preperation
 Google hesap kayıt sürecini içeren fonksiyonel test senaryosu hazırlandı. İstenildiği üzere hesap kayıt sürecinin fonksiyonel olmayan üç test vakası da (performans testi, güvenlik testi, kullanılabilirlik testi) .pdf formatında hazırlanmıştır.
 
-Dosya dizini: Documents/TASK-1/Test-Case-Preparation.pdf
+Test vaka çalışmasına [buradan](Documents/TASK-1/Test-Case-Preparation.pdf) ulaşabilirsiniz.
+
 
 
 ## Task 2: HTTP Rest Service Test
@@ -13,25 +14,26 @@ https://jsonplaceholder.typicode.com adresinde "/post" servisine ait http yönte
 
 #### postman koleksiyonu
 {{env}} : https://jsonplaceholder.typicode.com  
-Dosya dizini: Documents/TASK-2/http-rest-service-test-postman-collection.json
+Postman koleksiyonuna [buradan](Documents/TASK-2/http-rest-service-test-postman-collection.json) ulaşabilirsiniz.
 
 #### olası veritabanı tabloları
-Dosya dizini: Documents/TASK-2/posts-comments-users-database-tables.pdf
+Dosyaya [buradan](Documents/TASK-2/posts-comments-users-database-tables.pdf) ulaşabilirsiniz.
 
 #### Bonus: create post collection runner with dataset
-Dosya dizini: Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json
+Postman collection runner dosyasına Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json
 
 
 ## Task 3: HTTP Soap Service Test
 
 #### SoapUI Projesi
-Proje dosyasına [buradan](Documents/TASK-3/SOAP-Test-soapui-project.xml) ulaşabilirsiniz.
+https://www.crcind.com/csp/samples/SOAP.Demo.cls adresindeki servislere ilişkin SoapUI projesi oluşturulmuş ve işlemler test edilmiştir.
+Proje dosyasına [buradan](Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json) ulaşabilirsiniz.
 
 
 
 #### Bonus: Add Test suit with Load test in SOAPUI for a single operation without default values.
 AddInteger işlemine ait yük testi SoapUI projesi olarak oluşturulmuştur.  
-Dosya dizini: Documents/TASK-3/BONUS/SOAP-Test-AddInteger-Load-Test.xml
+Proje dosyasına [buradan](Documents/TASK-3/BONUS/SOAP-Test-AddInteger-Load-Test.xml) ulaşabilirsiniz.
 
 
 ## Task 4: UI Testing with Selenium
@@ -40,7 +42,7 @@ https://academy.eteration.com/instructors web sitesine ait task 4'te belirtilen 
 
 **NOT:** Web sitesi üzerinde 6 tane eğitmen bulunmaktadır. Task'da belirtilen test senaryosunda eğitmen sayısının 8 olup olmadığının kontrol edilmesi istendiği için test verisi olarak 8 kullanılmıştır.
 
-**Gherkin ile hazırlanmış test senaryosu** src/test/java/features/Instructors.feature dizinindedir.
+**Gherkin ile hazırlanmış test senaryosuna**  [buradan](src/test/java/features/Instructors.feature) ulaşabilirsiniz
 
 **Otomasyonun ayağa kaldırılması;**
 src/test/resources/TestNG.xml dizinindeki test suite üzerinden proje ayağa kaldırılır.
