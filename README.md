@@ -20,7 +20,8 @@ Postman koleksiyonuna [buradan](Documents/TASK-2/http-rest-service-test-postman-
 Dosyaya [buradan](Documents/TASK-2/posts-comments-users-database-tables.pdf) ulaşabilirsiniz.
 
 #### Bonus: create post collection runner with dataset
-Postman collection runner dosyasına Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json
+Postman collection runner dosyasına  [buradan](Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json) ulaşabilirsiniz.
+
 
 
 ## Task 3: HTTP Soap Service Test
