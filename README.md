@@ -50,7 +50,7 @@ src/test/resources/TestNG.xml dizinindeki test suite üzerinden proje ayağa kal
 
 Teknoloji  | Kullanıldığı Yer
 ------------- | -------------
-Java | Test senaryolarına ilişkin aksiyonlar
+Java 21 | Test senaryolarına ilişkin aksiyonlar
 Selenium Web Driver | Tarayıcı otomasyonu
 Cucumber | BDD yaklaşımıyla test senaryolarının yazılması
 TestNG | Testlerin Düzenlenmesi, Ek Test yapıları, Assertions
