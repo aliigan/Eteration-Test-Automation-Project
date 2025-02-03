@@ -28,7 +28,7 @@ Postman collection runner dosyasına  [buradan](Documents/TASK-2/BONUS/http-rest
 
 #### SoapUI Projesi
 https://www.crcind.com/csp/samples/SOAP.Demo.cls adresindeki servislere ilişkin SoapUI projesi oluşturulmuş ve işlemler test edilmiştir.
-Proje dosyasına [buradan](Documents/TASK-2/BONUS/http-rest-service-test-postman-test-run.json) ulaşabilirsiniz.
+Proje dosyasına [buradan](Documents/TASK-3/Eteration-SoapUI-Project.xml) ulaşabilirsiniz.
 
 
 
